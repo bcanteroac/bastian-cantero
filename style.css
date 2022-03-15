@@ -1,0 +1,46 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.text {
+    position: relative;
+  }
+  
+  .text::after {
+    content: "";
+    border-left: 3px solid black;
+    background: white;
+    right: 0;
+    height: 100%;
+    position: absolute;
+    animation: maquinaescribir 3s infinite alternate steps(30);
+  }
+  
+  @keyframes maquinaescribir {
+    from {
+      width: 100%;
+    }
+    to {
+      width: 0;
+    }
+  }
+
+.name{
+    font-size: 100px;
+}
+
+.container {
+  height: max-content;
+  width: max-content;
+
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+h1 {
+  font-size: 90px;
+}
+
+#nombre {
+  font-size: 100px;
+}
