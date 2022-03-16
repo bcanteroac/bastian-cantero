@@ -68,8 +68,9 @@ h2{
 .dv-skills {
   display: flex;
 
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  flex-direction: column;
 
   
 }
