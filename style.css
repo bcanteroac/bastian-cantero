@@ -50,6 +50,13 @@
   background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/a010-markusspiske-feb19-msp_1902_4971.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=2ab6b6af53f59e0dff4ce2f96b53f5c2);
 }
 
+.proyects{
+  margin-top: 3%;
+}
+.card{
+  margin-left: 5%;
+}
+
 h2{
   margin-left: 3%;
   margin-bottom: 2%;
