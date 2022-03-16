@@ -1,35 +1,33 @@
 * {
   font-family: "Roboto", sans-serif;
-  
 }
 
 .text {
-    position: relative;
+  position: relative;
+}
+
+.text::after {
+  content: "";
+  border-left: 3px solid black;
+  background: white;
+  right: 0;
+  height: 100%;
+  position: absolute;
+  animation: maquinaescribir 3s infinite alternate steps(30);
+}
+
+@keyframes maquinaescribir {
+  from {
+    width: 100%;
   }
-  
-  .text::after {
-    content: "";
-    border-left: 3px solid black;
-    background: white;
-    right: 0;
-    height: 100%;
-    position: absolute;
-    animation: maquinaescribir 3s infinite alternate steps(30);
+  to {
+    width: 0;
   }
-  
-  @keyframes maquinaescribir {
-    from {
-      width: 100%;
-    }
-    to {
-      width: 0;
-    }
-  }
+}
 
 /*##################################*/
 
-
-.information{
+.information {
   /*border: 1px solid red;*/
 
   width: 100%;
@@ -52,6 +50,26 @@
   background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/a010-markusspiske-feb19-msp_1902_4971.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=2ab6b6af53f59e0dff4ce2f96b53f5c2);
 }
 
-.skils{
-  font-size: 8vh;
+h2{
+  margin-left: 3%;
+  margin-bottom: 2%;
+}
+.skills{
+  margin-top: 5%;
+}
+
+.dv-skills {
+  display: flex;
+
+  justify-content: space-around;
+  align-items: center;
+
+  
+}
+
+.img{
+  border-radius: 1px solid red;
+  padding: 3px;
+  height: 100px;
+  width: 250;
 }
