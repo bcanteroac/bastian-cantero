@@ -63,43 +63,47 @@ h2{
 }
 .sc-skills{
 
-  margin-top: 15px;
-  margin-bottom: 15px;
-  border: 1px solid red;
+  height: max-content;
 
-  height: 60vh;
+  margin-right: 15px;
+  margin-left: 15px;
 
 }
 
 .sc-skills > p{
   font-size: 20px;
   margin-left: 3%;
-
-  margin-bottom: 0px;
 }
 
 .dv-skills {
   display: flex;
 
+  height: max-content;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-
-  margin-top: 5px;
-  margin-bottom: 5px;
-
-  height: 70%;
-
-  border: 1px solid red;
+  flex-direction: row;
+  
 }
 
 .sc-contact{
-  height: 40vh;
+  height: max-content;
   width: 100%;
 }
 
+.sc-contact > p{
+  font-size: 20px;
+  margin-left: 3%;
+}
+
 .dv-contact{
-  border: 1px solid green;
+  width: max-content;
+
+  display: flex;
+
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .img{
