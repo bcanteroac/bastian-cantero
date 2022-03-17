@@ -1,10 +1,13 @@
 * {
   font-family: "Roboto", sans-serif;
+  
 }
 
 .text {
   position: relative;
 }
+
+
 
 .text::after {
   content: "";
@@ -64,10 +67,7 @@ h2{
 .sc-skills{
 
   height: max-content;
-
-  margin-right: 15px;
-  margin-left: 15px;
-
+  width: 100%;
 }
 
 .sc-skills > p{
@@ -87,11 +87,16 @@ h2{
 .sc-contact{
   height: max-content;
   width: 100%;
+  margin-bottom: 25px;
 }
 
 .sc-contact > p{
   font-size: 20px;
-  margin-left: 3%;
+  margin-left: 4%;
+}
+
+.sc-contact > h2{
+  margin-left: 4%;
 }
 
 .dv-contact{
